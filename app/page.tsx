@@ -86,6 +86,19 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      <div className={styles.grid}>
+        <div
+          className={styles.card}
+        >
+          <h2 className={inter.className}>
+            Docs <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Find in-depth information about Next.js features and API.
+          </p>
+        </div>
+      </div>
     </main>
   )
 }
